@@ -1,0 +1,2 @@
+rootProject.name = 'indicator-root'
+include ':indicator', ':sample'

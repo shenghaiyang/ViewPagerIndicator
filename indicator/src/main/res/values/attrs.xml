@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Common-->
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <attr name="spacing" format="dimension" />
+
+    <attr name="normalSolidRadius" format="dimension" />
+    <attr name="normalSolidColor" format="color" />
+    <attr name="normalStrokeWidth" format="dimension" />
+    <attr name="normalStrokeColor" format="color" />
+
+    <attr name="selectedSolidRadius" format="dimension" />
+    <attr name="selectedSolidColor" format="color" />
+    <attr name="selectedStrokeWidth" format="dimension" />
+    <attr name="selectedStrokeColor" format="color" />
+    <!--End Common-->
+
+    <declare-styleable name="CircleChangeIndicator">
+        <attr name="orientation" />
+        <attr name="spacing" />
+        <attr name="normalSolidRadius" />
+        <attr name="normalSolidColor" />
+        <attr name="normalStrokeWidth" />
+        <attr name="normalStrokeColor" />
+        <attr name="selectedSolidRadius" />
+        <attr name="selectedSolidColor" />
+        <attr name="selectedStrokeWidth" />
+        <attr name="selectedStrokeColor" />
+    </declare-styleable>
+</resources>
