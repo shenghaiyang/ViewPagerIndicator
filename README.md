@@ -49,6 +49,12 @@ xml中：
     app:spacing="10dp" />
 ```
 
+java中：
+
+```
+indicator.setupWithViewPager(viewPager);
+```
+
 ## License
 
 ```
