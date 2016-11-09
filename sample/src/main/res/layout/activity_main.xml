@@ -10,20 +10,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-<shenghaiyang.indicator.CircleChangeIndicator
-    android:id="@+id/indicator"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal|bottom"
-    android:layout_marginBottom="48dp"
-    app:normalSolidColor="#00000000"
-    app:normalSolidRadius="4dp"
-    app:normalStrokeColor="#ffffff"
-    app:normalStrokeWidth="1dp"
-    app:orientation="horizontal"
-    app:selectedSolidColor="#ffffff"
-    app:selectedSolidRadius="4dp"
-    app:selectedStrokeColor="#ffffff"
-    app:selectedStrokeWidth="1dp"
-    app:spacing="5dp" />
+    <!--<shenghaiyang.indicator.CircleChangeIndicator-->
+        <!--android:id="@+id/circleIndicator"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal|bottom"-->
+        <!--android:layout_marginBottom="48dp"-->
+        <!--app:normalSolidColor="#00000000"-->
+        <!--app:normalSolidRadius="4dp"-->
+        <!--app:normalStrokeColor="#ffffff"-->
+        <!--app:normalStrokeWidth="1dp"-->
+        <!--app:orientation="horizontal"-->
+        <!--app:selectedSolidColor="#ffffff"-->
+        <!--app:selectedSolidRadius="4dp"-->
+        <!--app:selectedStrokeColor="#ffffff"-->
+        <!--app:selectedStrokeWidth="1dp"-->
+        <!--app:spacing="5dp" />-->
+
+    <shenghaiyang.indicator.LineChangeIndicator
+        android:id="@+id/lineIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        app:lineHeight="3dp"
+        app:lineWidth="16dp"
+        app:normalColor="#FFFFFF"
+        app:orientation="horizontal"
+        app:selectedColor="#4285f4"
+        app:spacing="10dp" />
 </FrameLayout>

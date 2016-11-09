@@ -7,6 +7,7 @@
     </attr>
 
     <attr name="spacing" format="dimension" />
+    <!--End Common-->
 
     <attr name="normalSolidRadius" format="dimension" />
     <attr name="normalSolidColor" format="color" />
@@ -17,7 +18,6 @@
     <attr name="selectedSolidColor" format="color" />
     <attr name="selectedStrokeWidth" format="dimension" />
     <attr name="selectedStrokeColor" format="color" />
-    <!--End Common-->
 
     <declare-styleable name="CircleChangeIndicator">
         <attr name="orientation" />
@@ -31,4 +31,19 @@
         <attr name="selectedStrokeWidth" />
         <attr name="selectedStrokeColor" />
     </declare-styleable>
+
+    <attr name="lineWidth" format="dimension" />
+    <attr name="lineHeight" format="dimension" />
+    <attr name="normalColor" format="color" />
+    <attr name="selectedColor" format="color" />
+
+    <declare-styleable name="LineChangeIndicator">
+        <attr name="orientation" />
+        <attr name="spacing" />
+        <attr name="lineWidth" />
+        <attr name="lineHeight" />
+        <attr name="normalColor" />
+        <attr name="selectedColor" />
+    </declare-styleable>
+
 </resources>

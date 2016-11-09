@@ -5,4 +5,7 @@
     <dimen name="default_normal_stroke_width">1dp</dimen>
     <dimen name="default_selected_solid_radius">4dp</dimen>
     <dimen name="default_selected_stroke_width">1dp</dimen>
+
+    <dimen name="default_line_width">12dp</dimen>
+    <dimen name="default_line_height">3dp</dimen>
 </resources>

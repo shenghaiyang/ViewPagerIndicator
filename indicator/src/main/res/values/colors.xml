@@ -4,4 +4,7 @@
     <color name="default_normal_stroke_color">#FFFFFF</color>
     <color name="default_selected_solid_color">#ffffff</color>
     <color name="default_selected_stroke_color">#FFFFFF</color>
+
+    <color name="default_normal_color">#ffffff</color>
+    <color name="default_selected_color">#4285f4</color>
 </resources>

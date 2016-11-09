@@ -3,13 +3,14 @@
 Android ViewPager Indicator
 
 ![](screenshots/cci.png)
+![](screenshots/lci.png)
 
 ## Usage
 
 gradle：
 
 ```
-compile 'shenghaiyang:indicator:1.0.0'
+compile 'shenghaiyang:indicator:1.1.0'
 ```
 
 xml中：
@@ -31,6 +32,21 @@ xml中：
     app:selectedStrokeColor="#ffffff"
     app:selectedStrokeWidth="1dp"
     app:spacing="5dp" />
+```
+
+```xml
+<shenghaiyang.indicator.LineChangeIndicator
+    android:id="@+id/lineIndicator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_marginBottom="30dp"
+    app:lineHeight="3dp"
+    app:lineWidth="16dp"
+    app:normalColor="#FFFFFF"
+    app:orientation="horizontal"
+    app:selectedColor="#4285f4"
+    app:spacing="10dp" />
 ```
 
 ## License

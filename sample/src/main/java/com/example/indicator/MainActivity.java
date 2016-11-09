@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import shenghaiyang.indicator.CircleChangeIndicator;
+import shenghaiyang.indicator.LineChangeIndicator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
-        CircleChangeIndicator indicator = (CircleChangeIndicator) findViewById(R.id.indicator);
+//        CircleChangeIndicator indicator = (CircleChangeIndicator) findViewById(R.id.circleIndicator);
+        LineChangeIndicator lineChangeIndicator = (LineChangeIndicator) findViewById(R.id.lineIndicator);
         Fragment f2 = ImageFragment.newInstance(R.drawable.bg_2);
         Fragment f3 = ImageFragment.newInstance(R.drawable.bg_3);
         Fragment f4 = ImageFragment.newInstance(R.drawable.bg_4);
@@ -33,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 return fragments.length;
             }
         });
-        indicator.setupWithViewPager(pager);
+//        indicator.setupWithViewPager(pager);
+        lineChangeIndicator.setupWithViewPager(pager);
 
     }
 }
